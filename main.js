@@ -57,7 +57,7 @@ camera.position.z = 5;
   scene.traverse(function (object) {
     // if (object.isMesh === true) 
       mesh.rotation.x = timer * 5;
-      mesh.rotation.y = timer * 2.5;
+      mesh.rotation.y = timer * 2;
       
     
   })
